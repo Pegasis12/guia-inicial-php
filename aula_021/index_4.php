@@ -16,7 +16,7 @@
   // apresenta apenas parte da frase
   echo substr($frase, 0, 10) . '<br>'; // funcao nativa que pega recebe o argumento q recebe 3 argumentos onde sera feito, de onde começa e onde termina
 
-  // verifica se uma palavra existe dentro da string - caso encontre retorna 1 - não encontra retorna nada - retorna true ou false
+  // verifica se uma palavra existe dentro da string - caso encontre retorna 1 de true - caso n encontre retorne false q na representação visual diferente do true q é um n aparece nada
   echo str_contains($frase, 'dolor'); // funcao nativa que recebe dois argumentos o primeiro onse vai verificar, o segundo oq é pra verificar dentro do primeiro
 
   // Existem varias dezenas de funcoes para string 
