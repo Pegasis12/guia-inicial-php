@@ -25,4 +25,24 @@
   echo '<pre>';
   print_r($nomes);
   echo '</pre>';
+
+  // retira um valor do final do array
+  $resultado = array_pop($nomes); // retira do final de array de nome o ultimo resultado
+  echo $resultado . '<br>'; // resultado passa a ter o valor retirado "manuel"
+  echo '<pre>';
+  print_r($nomes); // e nome passa a ter a array normal mas sem op manuel
+  echo '</pre>';
+
+  // retira um valor do inicio do array
+  $resultado = array_shift($nomes); // retira o primeiro item do array de nomes
+  echo $resultado . '<br>'; // resultado passa a ter o valor retirado do inicio "marcos"
+  echo '<pre>';
+  print_r($nomes); // e nome passa a ter a array normal mas sem o marcos no inicio
+  echo '</pre>';
+
+  // tambem podemos eliminar um determinado elemento do array com seu indice
+  unset($nomes[0]); // remove o primeiro elemento zero do array
+  echo '<pre>';
+  print_r($nomes);
+  echo '</pre>';
 ?>
