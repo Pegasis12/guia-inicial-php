@@ -10,7 +10,8 @@
   // resolução
   $css = "";
   $mensagem = "";
-  // empty verifica se a varaivel e vazia
+  // empty verifica se a varaivel e vazia, poderia usar trim dentro de empty pra limpar espaco
+  // pois caso tenha espacos dentro de msgerro ele n faz nada
   if(!empty($mensagem_erro)){
     $mensagem = $mensagem_erro;
     $css = "erro";
