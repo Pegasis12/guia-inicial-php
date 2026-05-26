@@ -8,5 +8,4 @@
   // vamos fazer um exercicio pratico muito simples
 
   echo "teste1";
-  echo "teste2";
 ?>
