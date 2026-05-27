@@ -6,8 +6,4 @@
 
   // vamos ver como criar e guardar dados num ficheiro
   // vamos fazer um exercicio pratico muito simples
-
-  echo "teste1";
-  echo "teste3";
-  echo "teste4";
 ?>
